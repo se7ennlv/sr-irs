@@ -1,0 +1,16 @@
+ICITEM	0	1	ITEMNO	Item Number	char	24	0	1	N/A	I/C Items	120	Text		Yes
+ICITEM	0	2	DESC	Description	char	60	0	0	N/A	I/C Items	200	Text		Yes
+ICITEM	0	3	INACTIVE	Inactive	smallint	0	0	0	N/A	I/C Items	100	DropDown	0=No;1=Yes	Yes
+ICITEM	0	4	ITEMBRKID	Structure Code	char	6	0	0	N/A	I/C Items	120	Text		Yes
+ICITEM	0	5	FMTITEMNO	Formated Item Number	char	24	0	0	N/A	I/C Items	130	Text		Yes
+ICITEM	0	6	CATEGORY	Category	char	6	0	0	N/A	I/C Items	120	Text		Yes
+ICITEM	0	7	CNTLACCT	Account Set	char	6	0	0	N/A	I/C Items	120	Text		Yes
+ICITEM	0	8	STOCKITEM	Stock Item	smallint	0	0	0	N/A	I/C Items	120	DropDown	0=No;1=Yes	Yes
+ICITEM	0	9	STOCKUNIT	Stock Unit of Measure	char	10	0	0	N/A	I/C Items	120	Text		Yes
+ICITEM	0	10	PICKINGSEQ	Picking Sequence	char	10	0	0	N/A	I/C Items	120	Text		Yes
+ICITEM	0	11	SEGMENT1	Segment 1	char	24	0	0	N/A	I/C Items	120	Text		Yes
+ICITEM	0	12	SEGMENT2	Segment 2	char	24	0	0	N/A	I/C Items	120	Text		Yes
+ICITEM	0	13	COMMENT1	Comment 1	char	80	0	0	N/A	I/C Items	200	Text		Yes
+ICITEM	0	14	COMMENT2	Comment 2	char	80	0	0	N/A	I/C Items	200	Text		Yes
+ICITEM	0	15	COMMENT3	Comment 3	char	80	0	0	N/A	I/C Items	200	Text		Yes
+ICITEM	0	16	COMMENT4	Barcode	char	80	0	0	N/A	I/C Items	200	Text		Yes

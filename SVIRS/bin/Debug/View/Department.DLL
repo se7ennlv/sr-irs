@@ -1,0 +1,6 @@
+tbl_departments	0	0	DEPCODE	Department Code	nchar	10	0	1	N/A	Departments	100	Text		Yes
+tbl_departments	0	1	DEPDESC	Description	nchar	30	0	0	N/A	Departments	200	Text		Yes
+tbl_departments	0	2	SWINVCTRL	Control Inventory	bit	0	0	0	N/A	Departments	200	Boolean		Yes
+tbl_departments	0	3	ICGRPMAIL	Inventory Control Group Mail	nchar	50	0	0	N/A	Departments	200	Text		Yes
+tbl_departments	0	4	RAGRPMAIL	Request Approver Group Mail	nchar	50	0	0	N/A	Departments	200	Text		Yes
+tbl_departments	0	5	IAGRPMAIL	Inventory Approver Group Mail	nchar	50	0	0	N/A	Departments	200	Text		Yes

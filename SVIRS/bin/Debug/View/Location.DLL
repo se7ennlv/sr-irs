@@ -1,0 +1,13 @@
+ICLOC	1	1	LOCATION	Location	char	6	0	1	N/A	I/C Locations	150	Text		Yes
+ICLOC	1	2	DESC	Description	char	60	0	0	N/A	I/C Locations	250	Text		Yes
+ICLOC	1	3	ADDRESS1	Address 1	char	60	0	0	N/A	I/C Locations	250	Text		Yes
+ICLOC	1	4	ADDRESS2	Address 2	char	60	0	0	N/A	I/C Locations	250	Text		Yes
+ICLOC	1	5	ADDRESS3	Address 3	char	60	0	0	N/A	I/C Locations	250	Text		Yes
+ICLOC	1	6	ADDRESS4	Address 4	char	60	0	0	N/A	I/C Locations	150	Text		Yes
+ICLOC	1	7	CITY	City	char	30	0	0	N/A	I/C Locations	150	Text		Yes
+ICLOC	1	8	STATE	State	char	30	0	0	N/A	I/C Locations	150	Text		Yes
+ICLOC	1	9	ZIP	Zip Code	char	20	0	0	N/A	I/C Locations	150	Text		Yes
+ICLOC	1	10	COUNTRY	Country	char	30	0	0	N/A	I/C Locations	150	Text		Yes
+ICLOC	1	11	PHONE	Phone Number	char	30	0	0	N/A	I/C Locations	150	Text		Yes
+ICLOC	1	12	FAX	Fax Number	char	30	0	0	N/A	I/C Locations	150	Text		Yes
+ICLOC	1	13	CONTACT	Contact Name	char	60	0	0	N/A	I/C Locations	150	Text		Yes

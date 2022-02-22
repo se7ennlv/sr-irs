@@ -1,0 +1,10 @@
+sys_users	0	0	USERID	User ID	nchar	10	0	1	N/A	Users	100	Text		Yes
+sys_users	0	1	FNAME	First Name	nchar	20	0	0	N/A	Users	250	Text		Yes
+sys_users	0	2	LNAME	Last Name	nchar	20	0	0	N/A	Users	250	Text		Yes
+sys_users	0	3	JOBTITLE	Job Title	nchar	30	0	0	N/A	Users	250	Text		Yes
+sys_users	0	4	PWD	Password	nchar	30	0	0	N/A	Users	100	Text		No
+sys_users	0	5	EMAIL	Email Address	nchar	50	0	0	N/A	Users	200	Text		Yes
+sys_users	0	6	SAGEUID	Sage User	nchar	15	0	0	N/A	Users	150	Text		Yes
+sys_users	0	7	SAGEPWD	Sage Password	nchar	30	0	0	N/A	Users	100	Text		No
+sys_users	0	8	SWACTIVE	Active	bit	0	0	0	N/A	Users	100	Boolean		Yes
+sys_users	0	9	UTYPE	User Type	smallint	0	0	0	N/A	Users	100	DropDown	0=Requestor;1=Approver;2=Inventory Control;3=System Admin	Yes

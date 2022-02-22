@@ -1,0 +1,4 @@
+tbl_reports	0	0	RPTCODE	Report Code	nchar	10	0	1	N/A	Report Maintenance	100	Text		Yes
+tbl_reports	0	1	RPTDESC	Report Description	nchar	30	0	0	N/A	Report Maintenance	250	Text		Yes
+tbl_reports	0	2	RPTFILE	File Name	nchar	30	0	0	N/A	Report Maintenance	200	Text		Yes
+tbl_reports	0	3	RPTSAGE	Report for Sage 300 ERP	bit	0	0	0	N/A	Report Maintenance	150	Boolean		Yes

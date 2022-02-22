@@ -1,0 +1,17 @@
+tbl_request	0	0	REQNO	Request Number	nchar	25	0	1	N/A	Inventory Request	150	Text		Yes
+tbl_request	0	1	REASON	Reason	nchar	60	0	0	N/A	Inventory Request	200	Text		Yes
+tbl_request	0	2	REFERENCE	Reference	nchar	60	0	0	N/A	Inventory Request	200	Text		Yes
+tbl_request	0	3	REQSTAT	Status	smallint	0	0	0	N/A	Inventory Request	150	DropDown	0=New;1=Submitted;2=Pending Approval;3=Editing Required;4=Rejected;5=Approved;6=Waiting for Purchase;7=Stock Arrival;8=Item Released;9=Voided;10=Collected	Yes
+tbl_request	0	4	REQDATE	Request Date	date	0	0	0	N/A	Inventory Request	150	Date		Yes
+tbl_request	0	5	CNTSUBMIT	Counted Submit	smallint	0	0	0	N/A	Inventory Request	150	Number		Yes
+tbl_request	0	6	REQDEP	From Department	nchar	10	0	0	N/A	Inventory Request	150	Text		No
+tbl_request	0	7	REQPERSON	Requesed By	nchar	10	0	0	N/A	Inventory Request	150	Text		Yes
+tbl_request	0	8	INVDEP	To Department	nchar	10	0	0	N/A	Inventory Request	150	Text		Yes
+tbl_request	0	9	APPROVSEQ	Approval Sequence	smallint	0	0	0	N/A	Inventory Request	150	Number		No
+tbl_request	0	10	REQAPPROVER	Request Approver	nchar	10	0	0	N/A	Inventory Request	150	Text		Yes
+tbl_request	0	11	REQAPPRVDATE	Request Approved Date	date	0	0	0	N/A	Inventory Request	200	Date		Yes
+tbl_request	0	12	REQAPPRVSTAT	Request Approved State	smallint	0	0	0	N/A	Inventory Request	150	DropDown	0=Approved;1=Rejected	Yes
+tbl_request	0	13	INVAPPROVER	Inventory Approver	nchar	10	0	0	N/A	Inventory Request	150	Text		Yes
+tbl_request	0	14	INVAPPRVDATE	Inventory Approved Date	date	0	0	0	N/A	Inventory Request	200	Date		Yes
+tbl_request	0	15	INVAPPRVSTAT	Inventory Approved State	smallint	0	0	0	N/A	Inventory Request	150	DropDown	0=Approved;1=Rejected	Yes
+tbl_request	0	16	REQTYPE	Request Type	smallint	0	0	0	N/A	Inventory Request	150	DropDown	0=Internal Use;1=For Sales	Yes
